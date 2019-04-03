@@ -1,7 +1,7 @@
 <template>
   <article>
     <header>
-      <h1>戸締まりチェックリスト</h1>
+      <h1>チェックリスト</h1>
       <h2>{{ year }}年{{ month }}月</h2>
     </header>
     <table>

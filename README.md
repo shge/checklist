@@ -2,16 +2,16 @@
 
 Original: https://github.com/snakada/tojimarist
 
-1. 戸締まりチェックリストをブラウザ上で月単位で作成し、最終的には印刷して使います。
-2. 戸締まりするチェック項目（玄関、キッチン、火元等）、を自由に追加・削除・ソートができます。
+1. チェックリストをブラウザ上で月単位で作成し、最終的には印刷して使います。
+2. チェック項目を自由に追加・削除・ソートができます。
 3. 設定したチェック項目は localStorage に保存します。
-4. 何ヶ月分でもつくれます。運用としては3ヶ月毎に必要項目を点検しつつ印刷するイメージです。
+4. 何ヶ月分でもつくれます。
 
-# example
+# Example
 
 https://snakada.github.io/tojimarist/
 
-## 主に使ったもの
+# Dependencies
 
 * [Vue.js](https://jp.vuejs.org/index.html)
 * [Vue CLI](https://cli.vuejs.org/)
@@ -23,7 +23,7 @@ https://snakada.github.io/tojimarist/
 * [Font Awesome](https://fontawesome.com/)
 * [Bulma](https://bulma.io/)
 
-## 構成（ざっくり）
+# Files
 
 ```
 ├── App.vue               // アプリ

@@ -5,15 +5,9 @@ import dayjs from 'dayjs';
 Vue.use(Vuex);
 
 const DEFAULT_CHECK_ITEMS = [
-  '玄関',
-  'キッチン\n蛇口',
-  '火元',
-  '水回り',
-  'リビング',
-  '寝室',
-  '書斎',
-  '勝手口',
-  '庭水道',
+  'A',
+  'B',
+  'C',
 ];
 
 const store = new Vuex.Store({

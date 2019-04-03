@@ -28,6 +28,7 @@
       <AddCheckItem/>
 
       <div id="resetCheckItems">
+        <p class="menu-label">Original: <a href="https://github.com/snakada/tojimarist">https://github.com/snakada/tojimarist</a></p>
         <h2 class="menu-label">リセット</h2>
         <div class="menu-item">
           <button @click="doResetCheckItems" class="button is-small is-danger">チェック項目を初期化する</button>

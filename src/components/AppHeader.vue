@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar" :class="{ 'has-active-burger': sidePanelIsOpened }">
     <div class="navbar-brand">
-      <h1 class="navbar-item">印刷用</h1>
+      <h1 class="navbar-item">Checklist</h1>
       <a class="navbar-burger burger" :class="{ 'is-active': sidePanelIsOpened }"
         @click="toggleSidePanel">
         <span></span>
